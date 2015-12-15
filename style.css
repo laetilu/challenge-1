@@ -1,0 +1,31 @@
+* {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+ }
+body {
+  background-image:url(bg.jpg);
+  background-size: cover;
+}
+main {
+  width: 1020px;
+  margin:auto;
+  /*background-color: #FFFFFF;*/
+}
+header {
+  background-color: black;
+  height: 300px;
+}
+nav {
+  color:#fff;
+  text-decoration: none;
+}
+header h1 {
+  color:#cfa205;
+  font-size: 133px;
+  text-align: center;
+  font-family: "Josefin Sans";
+}
