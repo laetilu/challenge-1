@@ -17,15 +17,74 @@ main {
 }
 header {
   background-color: black;
-  height: 300px;
+  height: 320px;
 }
 nav {
   color:#fff;
-  text-decoration: none;
+  margin-left: 150px;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  height: 60px;
+}
+
+.menu {
+  list-style-type: none;
+}
+.menu li {
+  float:left;
+  margin: 20px;
 }
 header h1 {
   color:#cfa205;
   font-size: 133px;
   text-align: center;
   font-family: "Josefin Sans";
+
+}
+header h2 {
+  color:#cfa205;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Josefin Sans";
+}
+
+.icones {
+  background-color: #e8e8e8;
+  width: 1020px;
+  margin: 0px;
+  padding: 20px;
+  height:60px;
+}
+.icones li {
+  list-style-type: none;
+  /*float:left;*/
+  /*margin: 0px;*/
+  margin-left: 170px;
+  display: inline-block;
+}
+.intro {
+  background-color: #fff;
+  height: 90px;
+  border-bottom: solid 1px #9d9d9d;
+
+}
+p {
+  padding-top: 30px;
+  color: #7a7a7a;
+  text-align: center;
+  font-family: "Bitter";
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+.articles {
+  background-color: #fff;
+  float:left;
+
+}
+article {
+  width: 33%;
+  float:left;
+
 }
